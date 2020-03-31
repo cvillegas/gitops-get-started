@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: vault
+  namespace: admin
+spec:
+  encryptedData:
+    mysql.yaml: AgAKgq5QqLZY9ZsnEdfdxBgrVprHA38qkXaFCh6R6WAZ3MBkYa+nvdMOZrMB5gVv5j7mxTk1hZyfOWhGQAU7BA7QddEVniIc9um11t31FaxR+5raSn7/HzZU5IbDhIBs1KY9T2qXt3Lryopym04ZLhsyluBEEgh8RoZhc0jRNkXx9kVcOV80uh6V6Oo+2NYk4vk77H7QVN6VOGUQIa8IjkNzb4B3ZcriwZZCcAaQtWYxI1/R88D6JwdC28uKBGQJ+BiOQrZK/WbPXb/l0vzV/yoZZq9oTVxL2ul1mmSm5Ln2bJd5BprC+PSNCHe4miJ8/+T6MhVUouI3U6CoupVWvNSxrHytfbKuRL9Wg6VQUb8wg94kSXaiq5DmYojnVSzEEQ/pS2sGQVSxQmeD9x0O1mzxgn7EmfdWIp3R6JLV5nnfKn+LjlD4WsI9/rotf8vCYbneLij69MRSxjGm5P+Oqtl9QuSPTEv3WCsjR0r90aF2Bat00dCuY0aKcm6NeRFnNi0WvCEcvHY1pr15ybkB0oMnR3Xx1u8D+hDEajKrKeEtva0obLJKzijc7bTLS7+BD/SWBx6pYKlBSOI8WYxjcOAYyZXTwHq23XS+P0YQKIV5SxOMMIuzPYS1A7j+FxfyMISIre+r/sqwvAmAeDyMxSfXdAC60GIe3H3OsyP8UVyDorqbZA2F0OeSptGCdVVTWlBP4axfTGV/1OrLZm+rrE02lWKlKRqzXWyc43a9Isz9/c8H5PpIq87TGOjh18NPf7E=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: vault
+      namespace: admin
+status: {}
+

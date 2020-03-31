@@ -13,3 +13,9 @@ spec:
     imageTag: "5.7.29"
     persistence:
       enabled: false
+  valuesFrom:
+    - secretKeyRef:
+      name: vault
+      namespace: admin
+      key: mysql.yaml
+      optional: false
